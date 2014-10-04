@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "author": "Dyson Simmons",
+  "name": "elementary OS 0.3 Freya Chrome Theme",
+  "description": "A theme designed to make Chrome look like it belongs in elementary OS 0.3 Freya.",
+  "homepage_url": "https://github.com/dyson/elementary-os-chrome-theme",
+  "version": "0.1",
+  "theme": {
+    "colors": {
+      "bookmark_text": [92, 92, 92],
+      "tab_background_text": [92, 92, 92],
+      "tab_text": [92, 92, 92],
+      "toolbar": [222, 222, 222]
+    },
+    "images": {
+      "theme_frame": "images/theme_frame.png",
+      "theme_frame_inactive": "images/theme_frame_inactive.png",
+      "theme_frame_incognito": "images/theme_frame.png",
+      "theme_frame_incognito_inactive": "images/theme_frame_inactive.png",
+
+      "theme_toolbar": "images/theme_toolbar.png",
+
+      "theme_tab_background": "images/theme_tab_background.png",
+      "theme_tab_background_incognito": "images/theme_tab_background.png"
+    },
+    "properties": {
+    },
+    "tints": {
+      "buttons": [0, 0, 0.6],
+      "frame_inactive": [-1, -1, -1],
+      "frame_incognito": [-1, -1, -1],
+      "frame_incognito_inactive": [-1, -1, -1]
+    }
+  }
+}
